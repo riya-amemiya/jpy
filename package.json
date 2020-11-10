@@ -6,7 +6,8 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "build": "./node_modules/.bin/babel src --out-dir dist",
-        "buildwatch": "./node_modules/.bin/babel src --out-dir dist -w"
+        "buildwatch": "./node_modules/.bin/babel src --out-dir dist -w",
+        "jpy": "./node_modules/.bin/babel build_jpy --out-dir build"
     },
     "keywords": [],
     "author": "",
